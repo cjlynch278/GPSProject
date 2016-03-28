@@ -66,8 +66,8 @@ public class GPSPanel extends JPanel {
 		ArrayList<Integer> enemyMove;
 		GraphAlgorithms g = new GraphAlgorithms();
 	
-		
-		enemyMove = g.processGraph(graph,1,currentNode);
+
+		enemyMove = g.processGraph(graph,9,currentNode);
 		System.out.println(enemyMove.size());
 		
 		try{
